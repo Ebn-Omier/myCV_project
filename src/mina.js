@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    //new coment to the git hup
     
     //- Open the Editor
     $('.adit').click(function() { $(".imputsHolder").animate({"right": 0})  })

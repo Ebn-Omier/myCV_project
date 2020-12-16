@@ -1,0 +1,207 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .navgation {
+    padding: 10px 5px;
+    background: #241b5a;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+  }
+ 
+.imputsHolder {
+    position: fixed;
+    width: 70%;
+    background: #fff;
+    height: 100%;
+    right: -70%;
+    border: 1px solid #000;
+    top: 0px;
+    padding: 50px 10px 10px 10px;
+    z-index: 100;
+}
+.closeEdit {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #241b5a;
+    font-size: 31px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+}
+.graper {
+    width: 1000px; 
+    margin: 100px auto 10px auto;
+  }
+
+/* .imputsHolder {} */
+
+.imputsHolder form {
+    font-size: 16px;
+    font-weight: 600;
+    color: #504d61;
+}
+.imputsHolder input {
+    padding: 8px;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #4523e29e;
+    border-radius: 5px;
+}
+
+
+.mian_CV {
+    width: 100%;
+    background: #ccc;
+    margin: 10px auto;
+    padding-bottom: 50px;
+}
+
+.header {
+    width: 100%;
+    background: #5745bd;
+    /* background-image: url('./me.jpeg'); */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidbar {
+    width: 30%;
+    float: left;
+}
+
+.sidbar img {
+    width: 100%;
+}
+.sidbar .sidInfo {
+    padding: 20px 10px;
+}
+
+.sidbar .sidInfo .contactInfo span {
+    display: block;
+    margin: 10px 0px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #4b4f52;
+}
+
+.headText {
+    color: #5745bd;
+}
+
+.sidbar .sidInfo .tags p {
+    background: #5745bd;
+    color: #d6cbcb;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 3px;
+    width: max-content;
+    float: left;
+}
+/* .sidbar .sidInfo .education {
+
+} */
+
+.sidbar .sidInfo .education .edic {
+    padding: 0px 0px 20px 20px;
+    margin-left: 10px;
+    position: relative;
+    border-left: 2px solid#ffffff;
+}
+.sidbar .sidInfo .education .edic .ecd_point {
+    width: 20px;
+    height: 20px;
+    background:#ffffff;
+    position: absolute;
+    left: -11px;
+    top: 0px;
+    border-radius: 50%;
+}
+
+.sidbar .sidInfo .education .univer {
+    font-size: larger;
+    font-weight: 600;
+    color:#ffffff;
+}
+
+.sidbar .sidInfo .education .department {
+    margin: 0px;
+}
+
+.sidbar .sidInfo .education .teimZone {
+    padding: 5px 0px;
+}
+
+.sidbar .sidInfo .education .teimZone p {
+    width: max-content;
+    float: left;
+    margin: 0px 10px 0px 0px;
+    font-size: 14px;
+    font-weight: 800;
+    color:#93919e;
+}
+.sidbar .sidInfo .tags h3 {
+    margin: 100px 0px 10px 4px;
+    color: #5745bd;
+}
+
+.contaner {
+    width: 70%;
+    float: left;
+    padding: 20px;
+    border-left: 1px solid #00000026;
+    /* margin: 50px 0px 0px 20px; */
+}
+.contaner .skil {
+    padding: 20px 0px;
+}
+.contaner .skil h2 {
+    margin: 0px;
+    padding: 0px;
+}
+.contaner .skil p {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Download Button */
+
+.conv_PDF {
+    text-align: center;
+    padding: 50px 0px;
+
+}
+
+.mybuttons:hover {
+    background: #9b79d2;
+    box-shadow: 0px 0px 4px 3px #00000073 inset;
+}
+
+.mybuttons {
+    font-weight: 600;
+    padding: 17px 40px;
+    margin: 0px auto;
+    cursor: pointer;
+    background: #7353a7;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}

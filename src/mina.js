@@ -91,7 +91,6 @@ window.onload = function () {
 //     });
 // });
 
-
 // const doc = new jsPDF();
 
 // function converToHTML() {

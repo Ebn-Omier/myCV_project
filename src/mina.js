@@ -8,7 +8,6 @@ $(document).ready(function() {
 
 }) 
 // 
-
 var doneButton = document.querySelector('#done');
 
 doneButton.addEventListener('click', ()=> {

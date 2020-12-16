@@ -1,12 +1,11 @@
+//this all ab out Jquery.
 $(document).ready(function() {
-    //new coment to the git hup
     
     //- Open the Editor
     $('.adit').click(function() { $(".imputsHolder").animate({"right": 0})  })
 
     //- close the Editor
     $('.closeEdit').click(function() { $(".imputsHolder").animate({"right": '-70%'}) })
-
 }) 
 // 
 var doneButton = document.querySelector('#done');

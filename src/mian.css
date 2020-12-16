@@ -1,7 +1,17 @@
 body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   }
-
+/*  */
+#gaudem {
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: #6b61b9;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600; 
+}
   * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -44,7 +54,7 @@ body {
 }
 /* the main contaner */
 .graper {
-    width: 1000px; 
+    width: 800px; 
     margin: 100px auto 10px auto;
   }
 
@@ -116,9 +126,8 @@ body {
     float: left;
 }
 /* .sidbar .sidInfo .education {
-
+    
 } */
-
 .sidbar .sidInfo .education .edic {
     padding: 0px 0px 20px 20px;
     margin-left: 10px;
@@ -150,7 +159,6 @@ body {
 }
 
 .sidbar .sidInfo .education .teimZone p {
-    width: max-content;
     float: left;
     margin: 0px 10px 0px 0px;
     font-size: 14px;

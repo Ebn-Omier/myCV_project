@@ -1,12 +1,41 @@
 //this all ab out Jquery.
 $(document).ready(function() {
     
+    var bob = document.getElementById('gaudem');
+    var contanerHright = $('.graper').height();
+
+    // paper interval
+    var paper = $('.graper');
+    var paperHieght = 842 ;
+    var paperWidth = 1030;
+
+    // preint the page hieght,
+    bob.innerText = `page Height = ${contanerHright}px`  ;
+
+    /*
+        Functon to toogl side bar
+        ==================
+    */ 
+   function toggelSideBar() {
+       if (condition) {     // condition - 1 
+           
+       } else if (condition)  {     // condition -2
+
+       } else {     // condition -3
+
+       }
+   };
+
+
+
     //- Open the Editor
     $('.adit').click(function() { $(".imputsHolder").animate({"right": 0})  })
 
     //- close the Editor
     $('.closeEdit').click(function() { $(".imputsHolder").animate({"right": '-70%'}) })
 }) 
+
+
 // 
 var doneButton = document.querySelector('#done');
 
@@ -44,14 +73,11 @@ doneButton.addEventListener('click', ()=> {
     //=
     phone.textContent =  phoneInput;
 
-
 })
 
 
-// document.getElementById('name').textContent = nameInput.nodeValue
-
-
-
+// Run the PDF function on the main contaner.
+//=================================
 window.onload = function () {
     document.getElementById("downPDF")
         .addEventListener("click", () => {
@@ -78,6 +104,60 @@ window.onload = function () {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//================================================================
+//================================================================
+//================================================================
 
 
 //     var pdf_Button = document.getElementById('downPDF');
@@ -125,26 +205,22 @@ window.onload = function () {
 // }
 
 
+//     var doc = window.jsPDF = window.jspdf.jsPDF()
 
-    // var doc = window.jsPDF = window.jspdf.jsPDF()
+//     var elementHTML = $('#contnet').html();
 
+//     var specialElementHandlers = {
+//         '#elementH': function (elementHTML, renderer) {
+//             return true;
+//         }
+//     };
 
+//     doc.fromHTML(elementHTML, 15, 15, {
+//         'width': 170,
+//         'elementHandlers': specialElementHandlers
+//     });
 
-    // var elementHTML = $('#contnet').html();
-
-    // var specialElementHandlers = {
-    //     '#elementH': function (elementHTML, renderer) {
-    //         return true;
-    //     }
-    // };
-
-    // doc.fromHTML(elementHTML, 15, 15, {
-    //     'width': 170,
-    //     'elementHandlers': specialElementHandlers
-    // });
-
-    // // Save the PDF
-    // doc.save('sample-document.pdf');
-
+//     // Save the PDF
+//     doc.save('sample-document.pdf');
 
 // });
